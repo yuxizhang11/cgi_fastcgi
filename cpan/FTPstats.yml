@@ -1,0 +1,81 @@
+---
+history:
+- attempts:
+  - method: dleasy
+    start: 1651921998.91428
+    url: &1 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://cpan.strawberryperl.com/
+  - method: dlhard
+    start: 1651921999.59918
+    url: *1
+  - method: dleasy
+    start: 1651921999.59932
+    url: &2 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://www.cpan.org/
+  end: 1651921999.95312
+  file: authors/01mailrc.txt.gz
+  filesize: 264061
+  start: 1651921998.91408
+  thesiteurl: *2
+- attempts:
+  - method: dleasy
+    start: 1651921999.97327
+    url: &3 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://cpan.strawberryperl.com/
+  - method: dlhard
+    start: 1651922000.31719
+    url: *3
+  - method: dleasy
+    start: 1651922000.31736
+    url: &4 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://www.cpan.org/
+  end: 1651922000.73475
+  file: modules/02packages.details.txt.gz
+  filesize: 2472607
+  start: 1651921999.97311
+  thesiteurl: *4
+- attempts:
+  - method: dleasy
+    start: 1651922000.74361
+    url: &5 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://cpan.strawberryperl.com/
+  - method: dlhard
+    start: 1651922001.08724
+    url: *5
+  - method: dleasy
+    start: 1651922001.08741
+    url: &6 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://www.cpan.org/
+  end: 1651922001.12279
+  file: modules/03modlist.data.gz
+  filesize: 248
+  start: 1651922000.74345
+  thesiteurl: *6
+- attempts:
+  - method: dleasy
+    start: 1651922014.10307
+    url: &7 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://www.cpan.org/
+  end: 1651922014.14587
+  file: authors/id/L/LE/LEEJO/CGI-Fast-2.16.tar.gz
+  filesize: 9310
+  start: 1651922014.1019
+  thesiteurl: *7
+- attempts:
+  - method: dleasy
+    start: 1651922014.17359
+    url: &8 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://www.cpan.org/
+  end: 1651922014.20984
+  file: authors/id/L/LE/LEEJO/CHECKSUMS
+  filesize: 27511
+  start: 1651922014.17196
+  thesiteurl: *8

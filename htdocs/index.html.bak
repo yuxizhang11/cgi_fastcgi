@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>Shop</title>
+</head>
+<body>
+    <h1>Der Shop</h1>
+    <form action="/cgi-bin/order1.cgi" method="post">
+        <div class="Seite">
+            <table class="Tabelle">
+                <thead>
+                <tr>
+                    <th>Produkt 1</th>
+                    <th>Produkt 2</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><img src="./images/banana.png" width="150" height="75"></td>
+                    <td><img src="./images/apple.jpg" width="125" height="125"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Zum Warenkob hinzufügen"></td>
+                    <td><input type="submit" value="Zum Warenkob hinzufügen"></td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="Warenkorbkopf">
+                Warenkorb
+            </div>
+        </div>
+    </form>
+</body>
+</html>

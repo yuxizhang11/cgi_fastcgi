@@ -1,0 +1,21 @@
+body{
+    height: 100%;
+}
+.Seite{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.Tabelle{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: collapse;
+}
+.Warenkorbkopf{
+    margin-left: 10px;
+}

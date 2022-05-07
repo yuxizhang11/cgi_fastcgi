@@ -1,0 +1,53 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: CGI::Fast
+  CHECKSUM_STATUS: OK
+  CONTAINSMODS:
+    CGI::Fast: 1
+  ID: L/LE/LEEJO/CGI-Fast-2.16.tar.gz
+  RO:
+    CPAN_USERID: LEEJO
+    CPAN_VERSION: '2.16'
+    DESCRIPTION: ~
+  archived: tar
+  build_dir: F:\xampp\cpan\build\CGI-Fast-2.16-0
+  incommandcolor: 1
+  localfile: F:\xampp\cpan\sources\authors\id\L\LE\LEEJO\CGI-Fast-2.16.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: 1
+    TEXT: NO
+    TIME: 1651922021
+  mandatory: 1
+  negative_prefs_cache: 0
+  prefs: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: '0'
+      File::Temp: '0'
+      Test::More: '0'
+    opt_build_requires: {}
+    opt_requires: {}
+    requires:
+      CGI: '4'
+      Carp: '0'
+      FCGI: '0.67'
+      if: '0'
+      perl: '5.008001'
+  reqtype: c
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1651922014
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 0
+    FAILED: ''
+    TEXT: YES
+    TIME: 1651922014
+perl:
+  $^X: F:\xampp\perl\bin\perl.exe
+  mtime_$^X: 1611504418
+  mtime_dll: 0
+  sitearchexp: F:\xampp\perl\site\lib
+time: 1651922021
