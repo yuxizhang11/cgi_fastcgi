@@ -2,23 +2,18 @@
 use strict;
 use warnings;
 
-use CGI qw(:standard);
-use CGI::Carp qw(fatalsToBrowser);
+use FCGI;
 
-my $counter = cookie('counter') || 0;
-$counter++;
+our $count = 0;
+my $request = FCGI::Request();
 
-my $cookie = cookie(
-    -name => "counter",
-    -value => $counter,
-    -expires => "+1m"
-);
-
-print "Content-Type: text/html\nSet-Cookie: $cookie\n\n";
+while($request->Accept() >= 0) {
+    local $count = $count;
+    $count++;
+    print "Content-Type: text/html";
+    print << "END_HTML";}
 
 
-print << "END_HTML";
-<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -73,7 +68,7 @@ td, th{
                 </tbody>
             </table>
             <div class="Warenkorbkopf">
-                Warenkorb: $counter
+                Warenkorb: $count
             </div>
         </div>
     </form>
