@@ -17,6 +17,7 @@
 LoadFile "F:/xampp/php/php7ts.dll"
 LoadFile "F:/xampp/php/libpq.dll"
 LoadFile "F:/xampp/php/libsqlite3.dll"
+LoadModule php7_module "F:/xampp/php/php7apache2_4.dll"
 LoadModule fcgid_module modules/mod_fcgid.so
 
 <IfModule fcgid_module>

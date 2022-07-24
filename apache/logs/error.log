@@ -347,3 +347,286 @@
 [Sat May 07 13:50:27.909326 2022] [ssl:warn] [pid 10612:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Sat May 07 13:50:27.952392 2022] [ssl:warn] [pid 10612:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Sat May 07 13:50:27.955394 2022] [mpm_winnt:notice] [pid 10612:tid 648] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 24 12:16:55.134548 2022] [ssl:warn] [pid 3688:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:16:55.163552 2022] [core:warn] [pid 3688:tid 440] AH00098: pid file F:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 24 12:16:55.164552 2022] [ssl:warn] [pid 3688:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:16:55.183548 2022] [mpm_winnt:notice] [pid 3688:tid 440] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 configured -- resuming normal operations
+[Sun Jul 24 12:16:55.183548 2022] [mpm_winnt:notice] [pid 3688:tid 440] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Sun Jul 24 12:16:55.183548 2022] [core:notice] [pid 3688:tid 440] AH00094: Command line: 'f:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Sun Jul 24 12:16:55.186553 2022] [mpm_winnt:notice] [pid 3688:tid 440] AH00418: Parent: Created child process 3640
+[Sun Jul 24 12:16:56.024550 2022] [ssl:warn] [pid 3640:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:16:56.083549 2022] [ssl:warn] [pid 3640:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:16:56.103553 2022] [mpm_winnt:notice] [pid 3640:tid 672] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 24 12:17:02.949279 2022] [mpm_winnt:crit] [pid 3640:tid 672] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jul 24 12:17:05.383167 2022] [ssl:warn] [pid 14204:tid 608] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:17:05.410168 2022] [core:warn] [pid 14204:tid 608] AH00098: pid file F:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 24 12:17:05.412168 2022] [ssl:warn] [pid 14204:tid 608] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:17:05.430163 2022] [mpm_winnt:notice] [pid 14204:tid 608] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 configured -- resuming normal operations
+[Sun Jul 24 12:17:05.430163 2022] [mpm_winnt:notice] [pid 14204:tid 608] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Sun Jul 24 12:17:05.430163 2022] [core:notice] [pid 14204:tid 608] AH00094: Command line: 'f:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Sun Jul 24 12:17:05.433166 2022] [mpm_winnt:notice] [pid 14204:tid 608] AH00418: Parent: Created child process 20032
+[Sun Jul 24 12:17:06.249110 2022] [ssl:warn] [pid 20032:tid 660] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:17:06.300110 2022] [ssl:warn] [pid 20032:tid 660] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:17:06.320107 2022] [mpm_winnt:notice] [pid 20032:tid 660] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 24 12:17:09.589124 2022] [mpm_winnt:crit] [pid 20032:tid 660] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jul 24 12:17:18.839030 2022] [ssl:warn] [pid 17264:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:17:18.871026 2022] [core:warn] [pid 17264:tid 636] AH00098: pid file F:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 24 12:17:18.874027 2022] [ssl:warn] [pid 17264:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:17:18.898026 2022] [mpm_winnt:notice] [pid 17264:tid 636] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Sun Jul 24 12:17:18.898026 2022] [mpm_winnt:notice] [pid 17264:tid 636] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Sun Jul 24 12:17:18.898026 2022] [core:notice] [pid 17264:tid 636] AH00094: Command line: 'f:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Sun Jul 24 12:17:18.902027 2022] [mpm_winnt:notice] [pid 17264:tid 636] AH00418: Parent: Created child process 3780
+[Sun Jul 24 12:17:19.860029 2022] [ssl:warn] [pid 3780:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:17:19.914028 2022] [ssl:warn] [pid 3780:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:17:19.936026 2022] [mpm_winnt:notice] [pid 3780:tid 636] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 24 12:17:21.968026 2022] [mpm_winnt:crit] [pid 3780:tid 636] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jul 24 12:17:46.181958 2022] [ssl:warn] [pid 14236:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:17:46.217957 2022] [core:warn] [pid 14236:tid 592] AH00098: pid file F:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 24 12:17:46.220956 2022] [ssl:warn] [pid 14236:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:17:46.241956 2022] [mpm_winnt:notice] [pid 14236:tid 592] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Sun Jul 24 12:17:46.241956 2022] [mpm_winnt:notice] [pid 14236:tid 592] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Sun Jul 24 12:17:46.241956 2022] [core:notice] [pid 14236:tid 592] AH00094: Command line: 'f:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Sun Jul 24 12:17:46.244958 2022] [mpm_winnt:notice] [pid 14236:tid 592] AH00418: Parent: Created child process 17732
+[Sun Jul 24 12:18:17.299713 2022] [ssl:warn] [pid 1348:tid 688] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:18:17.348712 2022] [core:warn] [pid 1348:tid 688] AH00098: pid file F:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 24 12:18:17.350711 2022] [ssl:warn] [pid 1348:tid 688] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:18:17.371709 2022] [mpm_winnt:notice] [pid 1348:tid 688] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Sun Jul 24 12:18:17.371709 2022] [mpm_winnt:notice] [pid 1348:tid 688] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Sun Jul 24 12:18:17.371709 2022] [core:notice] [pid 1348:tid 688] AH00094: Command line: 'f:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Sun Jul 24 12:18:17.375710 2022] [mpm_winnt:notice] [pid 1348:tid 688] AH00418: Parent: Created child process 18228
+[Sun Jul 24 12:18:18.249946 2022] [ssl:warn] [pid 18228:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:18:18.305947 2022] [ssl:warn] [pid 18228:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:18:18.325943 2022] [mpm_winnt:notice] [pid 18228:tid 596] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 24 12:19:01.286226 2022] [ssl:warn] [pid 696:tid 524] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:19:01.341226 2022] [core:warn] [pid 696:tid 524] AH00098: pid file F:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 24 12:19:01.344233 2022] [ssl:warn] [pid 696:tid 524] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:19:01.370226 2022] [mpm_winnt:notice] [pid 696:tid 524] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Sun Jul 24 12:19:01.370226 2022] [mpm_winnt:notice] [pid 696:tid 524] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Sun Jul 24 12:19:01.370226 2022] [core:notice] [pid 696:tid 524] AH00094: Command line: 'f:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Sun Jul 24 12:19:01.375225 2022] [mpm_winnt:notice] [pid 696:tid 524] AH00418: Parent: Created child process 16256
+[Sun Jul 24 12:19:02.249354 2022] [ssl:warn] [pid 16256:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:19:02.306356 2022] [ssl:warn] [pid 16256:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:19:02.326355 2022] [mpm_winnt:notice] [pid 16256:tid 648] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 24 12:19:08.266619 2022] [cgi:error] [pid 16256:tid 1884] [client ::1:52124] AH02811: script not found or unable to stat: F:/xampp/cgi-bin/order1.cgi, referer: http://localhost/cgi-bin/order1.cgi
+[Sun Jul 24 12:20:04.611298 2022] [mpm_winnt:crit] [pid 16256:tid 648] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jul 24 12:20:06.570420 2022] [ssl:warn] [pid 15868:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:20:06.622423 2022] [core:warn] [pid 15868:tid 664] AH00098: pid file F:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 24 12:20:06.624424 2022] [ssl:warn] [pid 15868:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:20:06.645419 2022] [mpm_winnt:notice] [pid 15868:tid 664] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Sun Jul 24 12:20:06.645419 2022] [mpm_winnt:notice] [pid 15868:tid 664] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Sun Jul 24 12:20:06.645419 2022] [core:notice] [pid 15868:tid 664] AH00094: Command line: 'f:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Sun Jul 24 12:20:06.649420 2022] [mpm_winnt:notice] [pid 15868:tid 664] AH00418: Parent: Created child process 17592
+[Sun Jul 24 12:20:07.457363 2022] [ssl:warn] [pid 17592:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:20:07.508367 2022] [ssl:warn] [pid 17592:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:20:07.527365 2022] [mpm_winnt:notice] [pid 17592:tid 592] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 24 12:22:09.905913 2022] [ssl:warn] [pid 16140:tid 180] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:22:09.934917 2022] [core:warn] [pid 16140:tid 180] AH00098: pid file F:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 24 12:22:09.936915 2022] [ssl:warn] [pid 16140:tid 180] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:22:09.957915 2022] [mpm_winnt:notice] [pid 16140:tid 180] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Sun Jul 24 12:22:09.957915 2022] [mpm_winnt:notice] [pid 16140:tid 180] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Sun Jul 24 12:22:09.957915 2022] [core:notice] [pid 16140:tid 180] AH00094: Command line: 'f:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Sun Jul 24 12:22:09.961914 2022] [mpm_winnt:notice] [pid 16140:tid 180] AH00418: Parent: Created child process 18652
+[Sun Jul 24 12:22:10.889914 2022] [ssl:warn] [pid 18652:tid 680] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:22:10.939914 2022] [ssl:warn] [pid 18652:tid 680] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:22:10.960914 2022] [mpm_winnt:notice] [pid 18652:tid 680] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 24 12:23:19.028685 2022] [mpm_winnt:crit] [pid 18652:tid 680] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jul 24 12:27:26.047928 2022] [ssl:warn] [pid 9032:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:27:26.090930 2022] [core:warn] [pid 9032:tid 644] AH00098: pid file F:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 24 12:27:26.092931 2022] [ssl:warn] [pid 9032:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:27:26.115929 2022] [mpm_winnt:notice] [pid 9032:tid 644] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Sun Jul 24 12:27:26.115929 2022] [mpm_winnt:notice] [pid 9032:tid 644] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Sun Jul 24 12:27:26.115929 2022] [core:notice] [pid 9032:tid 644] AH00094: Command line: 'f:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Sun Jul 24 12:27:26.119929 2022] [mpm_winnt:notice] [pid 9032:tid 644] AH00418: Parent: Created child process 3668
+[Sun Jul 24 12:27:26.919380 2022] [ssl:warn] [pid 3668:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:27:26.969381 2022] [ssl:warn] [pid 3668:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:27:26.989380 2022] [mpm_winnt:notice] [pid 3668:tid 672] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 24 12:27:37.223776 2022] [mpm_winnt:crit] [pid 3668:tid 672] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jul 24 12:38:18.966283 2022] [ssl:warn] [pid 16708:tid 656] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:38:18.997282 2022] [core:warn] [pid 16708:tid 656] AH00098: pid file F:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 24 12:38:18.999284 2022] [ssl:warn] [pid 16708:tid 656] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:38:19.021282 2022] [mpm_winnt:notice] [pid 16708:tid 656] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Sun Jul 24 12:38:19.021282 2022] [mpm_winnt:notice] [pid 16708:tid 656] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Sun Jul 24 12:38:19.021282 2022] [core:notice] [pid 16708:tid 656] AH00094: Command line: 'f:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Sun Jul 24 12:38:19.024283 2022] [mpm_winnt:notice] [pid 16708:tid 656] AH00418: Parent: Created child process 480
+[Sun Jul 24 12:38:19.849518 2022] [ssl:warn] [pid 480:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:38:19.899517 2022] [ssl:warn] [pid 480:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 12:38:19.920517 2022] [mpm_winnt:notice] [pid 480:tid 672] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 24 12:38:26.960593 2022] [cgi:error] [pid 480:tid 1884] [client ::1:52795] AH02811: script not found or unable to stat: F:/xampp/cgi-bin/order1.cgi, referer: http://localhost/index.html
+[Sun Jul 24 12:39:07.349294 2022] [cgi:error] [pid 480:tid 1884] [client ::1:52798] AH02812: attempt to invoke directory as script: F:/xampp/cgi-bin/
+[Sun Jul 24 13:00:40.324610 2022] [mpm_winnt:crit] [pid 480:tid 672] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jul 24 13:00:42.069733 2022] [ssl:warn] [pid 15860:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 13:00:42.097732 2022] [core:warn] [pid 15860:tid 636] AH00098: pid file F:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 24 13:00:42.099734 2022] [ssl:warn] [pid 15860:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 13:00:42.120732 2022] [mpm_winnt:notice] [pid 15860:tid 636] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Sun Jul 24 13:00:42.120732 2022] [mpm_winnt:notice] [pid 15860:tid 636] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Sun Jul 24 13:00:42.120732 2022] [core:notice] [pid 15860:tid 636] AH00094: Command line: 'f:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Sun Jul 24 13:00:42.124736 2022] [mpm_winnt:notice] [pid 15860:tid 636] AH00418: Parent: Created child process 2188
+[Sun Jul 24 13:00:42.959736 2022] [ssl:warn] [pid 2188:tid 632] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 13:00:43.015752 2022] [ssl:warn] [pid 2188:tid 632] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 13:00:43.036752 2022] [mpm_winnt:notice] [pid 2188:tid 632] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 24 13:00:45.364803 2022] [authz_core:error] [pid 2188:tid 1884] [client ::1:53613] AH01630: client denied by server configuration: F:/xampp/fcgi-bin/
+[Sun Jul 24 13:00:51.680917 2022] [cgi:error] [pid 2188:tid 1876] [client ::1:53614] AH02811: script not found or unable to stat: F:/xampp/cgi-bin/order1.cgi, referer: http://localhost/index.html
+[Sun Jul 24 13:00:57.107317 2022] [authz_core:error] [pid 2188:tid 1884] [client ::1:53616] AH01630: client denied by server configuration: F:/xampp/fcgi-bin/order1.fcgi
+[Sun Jul 24 13:02:44.085657 2022] [mpm_winnt:crit] [pid 2188:tid 632] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jul 24 13:02:45.577164 2022] [ssl:warn] [pid 5036:tid 200] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 13:02:45.627165 2022] [core:warn] [pid 5036:tid 200] AH00098: pid file F:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 24 13:02:45.629165 2022] [ssl:warn] [pid 5036:tid 200] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 13:02:45.650164 2022] [mpm_winnt:notice] [pid 5036:tid 200] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Sun Jul 24 13:02:45.650164 2022] [mpm_winnt:notice] [pid 5036:tid 200] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Sun Jul 24 13:02:45.650164 2022] [core:notice] [pid 5036:tid 200] AH00094: Command line: 'f:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Sun Jul 24 13:02:45.654165 2022] [mpm_winnt:notice] [pid 5036:tid 200] AH00418: Parent: Created child process 12300
+[Sun Jul 24 13:02:46.477164 2022] [ssl:warn] [pid 12300:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 13:02:46.535165 2022] [ssl:warn] [pid 12300:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 13:02:46.556165 2022] [mpm_winnt:notice] [pid 12300:tid 652] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 24 13:02:51.106299 2022] [cgi:error] [pid 12300:tid 1880] [client ::1:53698] AH02811: script not found or unable to stat: F:/xampp/cgi-bin/order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 13:03:35.719370 2022] [mpm_winnt:crit] [pid 12300:tid 652] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jul 24 13:03:37.477812 2022] [ssl:warn] [pid 14232:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 13:03:37.517812 2022] [core:warn] [pid 14232:tid 596] AH00098: pid file F:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 24 13:03:37.519812 2022] [ssl:warn] [pid 14232:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 13:03:37.545814 2022] [mpm_winnt:notice] [pid 14232:tid 596] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Sun Jul 24 13:03:37.545814 2022] [mpm_winnt:notice] [pid 14232:tid 596] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Sun Jul 24 13:03:37.545814 2022] [core:notice] [pid 14232:tid 596] AH00094: Command line: 'f:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Sun Jul 24 13:03:37.551812 2022] [mpm_winnt:notice] [pid 14232:tid 596] AH00418: Parent: Created child process 13664
+[Sun Jul 24 13:03:38.473870 2022] [ssl:warn] [pid 13664:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 13:03:38.516872 2022] [ssl:warn] [pid 13664:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 13:03:38.537874 2022] [mpm_winnt:notice] [pid 13664:tid 664] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 24 13:03:39.352451 2022] [cgi:error] [pid 13664:tid 1884] [client ::1:53723] AH02811: script not found or unable to stat: F:/xampp/cgi-bin/order1.cgi, referer: http://localhost/index.html
+[Sun Jul 24 13:05:00.985137 2022] [cgi:error] [pid 13664:tid 1876] [client ::1:53754] AH02811: script not found or unable to stat: F:/xampp/cgi-bin/order1.cgi, referer: http://localhost/index.html
+[Sun Jul 24 13:05:39.792675 2022] [mpm_winnt:crit] [pid 13664:tid 664] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jul 24 13:10:06.435499 2022] [ssl:warn] [pid 13964:tid 632] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 13:10:06.482500 2022] [core:warn] [pid 13964:tid 632] AH00098: pid file F:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 24 13:10:06.484500 2022] [ssl:warn] [pid 13964:tid 632] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 13:10:06.505501 2022] [mpm_winnt:notice] [pid 13964:tid 632] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Sun Jul 24 13:10:06.505501 2022] [mpm_winnt:notice] [pid 13964:tid 632] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Sun Jul 24 13:10:06.505501 2022] [core:notice] [pid 13964:tid 632] AH00094: Command line: 'f:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Sun Jul 24 13:10:06.508500 2022] [mpm_winnt:notice] [pid 13964:tid 632] AH00418: Parent: Created child process 14068
+[Sun Jul 24 13:10:07.353499 2022] [ssl:warn] [pid 14068:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 13:10:07.407499 2022] [ssl:warn] [pid 14068:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 13:10:07.427500 2022] [mpm_winnt:notice] [pid 14068:tid 664] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 24 13:14:25.816925 2022] [mpm_winnt:error] [pid 14068:tid 4960] AH00326: Server ran out of threads to serve requests. Consider raising the ThreadsPerChild setting
+[Sun Jul 24 14:03:50.505402 2022] [mpm_winnt:crit] [pid 14068:tid 664] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jul 24 14:03:52.107499 2022] [ssl:warn] [pid 23228:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:03:52.154516 2022] [core:warn] [pid 23228:tid 664] AH00098: pid file F:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 24 14:03:52.156518 2022] [ssl:warn] [pid 23228:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:03:52.178519 2022] [mpm_winnt:notice] [pid 23228:tid 664] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Sun Jul 24 14:03:52.178519 2022] [mpm_winnt:notice] [pid 23228:tid 664] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Sun Jul 24 14:03:52.178519 2022] [core:notice] [pid 23228:tid 664] AH00094: Command line: 'f:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Sun Jul 24 14:03:52.181517 2022] [mpm_winnt:notice] [pid 23228:tid 664] AH00418: Parent: Created child process 26400
+[Sun Jul 24 14:03:53.053613 2022] [ssl:warn] [pid 26400:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:03:53.110077 2022] [ssl:warn] [pid 26400:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:03:53.132075 2022] [mpm_winnt:notice] [pid 26400:tid 652] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 24 14:03:58.880303 2022] [cgi:error] [pid 26400:tid 1880] [client ::1:51524] End of script output before headers: order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:03:58.880303 2022] [cgi:error] [pid 26400:tid 1880] [client ::1:51524] AH01215: Undefined subroutine &main::cookie called at F:/xampp/fcgi-bin/order1.fcgi line 8.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:04:43.152359 2022] [mpm_winnt:crit] [pid 26400:tid 652] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jul 24 14:04:44.858095 2022] [ssl:warn] [pid 27144:tid 632] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:04:44.909090 2022] [core:warn] [pid 27144:tid 632] AH00098: pid file F:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 24 14:04:44.910090 2022] [ssl:warn] [pid 27144:tid 632] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:04:44.932096 2022] [mpm_winnt:notice] [pid 27144:tid 632] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Sun Jul 24 14:04:44.932096 2022] [mpm_winnt:notice] [pid 27144:tid 632] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Sun Jul 24 14:04:44.932096 2022] [core:notice] [pid 27144:tid 632] AH00094: Command line: 'f:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Sun Jul 24 14:04:44.936292 2022] [mpm_winnt:notice] [pid 27144:tid 632] AH00418: Parent: Created child process 17160
+[Sun Jul 24 14:04:45.943880 2022] [ssl:warn] [pid 17160:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:04:46.000174 2022] [ssl:warn] [pid 17160:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:04:46.022477 2022] [mpm_winnt:notice] [pid 17160:tid 652] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 24 14:04:47.843963 2022] [cgi:error] [pid 17160:tid 1884] [client ::1:51556] End of script output before headers: order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:04:47.843963 2022] [cgi:error] [pid 17160:tid 1884] [client ::1:51556] AH01215: Undefined subroutine &main::cookie called at F:/xampp/fcgi-bin/order1.fcgi line 8.\r: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:04:48.998576 2022] [cgi:error] [pid 17160:tid 1876] [client ::1:51557] End of script output before headers: order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:04:48.998576 2022] [cgi:error] [pid 17160:tid 1876] [client ::1:51557] AH01215: Undefined subroutine &main::cookie called at F:/xampp/fcgi-bin/order1.fcgi line 8.\r: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:05:40.713415 2022] [cgi:error] [pid 17160:tid 1884] [client ::1:51559] AH02811: script not found or unable to stat: F:/xampp/cgi-bin/order1.cgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:06:10.594419 2022] [cgi:error] [pid 17160:tid 1876] [client ::1:51594] AH02811: script not found or unable to stat: F:/xampp/cgi-bin/order1.cgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:06:11.290988 2022] [cgi:error] [pid 17160:tid 1876] [client ::1:51594] AH02811: script not found or unable to stat: F:/xampp/cgi-bin/order1.cgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:06:13.392770 2022] [cgi:error] [pid 17160:tid 1876] [client ::1:51594] AH02811: script not found or unable to stat: F:/xampp/cgi-bin/order1.cgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:06:18.265081 2022] [mpm_winnt:crit] [pid 17160:tid 652] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jul 24 14:06:20.626895 2022] [ssl:warn] [pid 22680:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:06:20.654895 2022] [core:warn] [pid 22680:tid 584] AH00098: pid file F:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 24 14:06:20.656893 2022] [ssl:warn] [pid 22680:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:06:20.676893 2022] [mpm_winnt:notice] [pid 22680:tid 584] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Sun Jul 24 14:06:20.677892 2022] [mpm_winnt:notice] [pid 22680:tid 584] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Sun Jul 24 14:06:20.677892 2022] [core:notice] [pid 22680:tid 584] AH00094: Command line: 'f:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Sun Jul 24 14:06:20.681892 2022] [mpm_winnt:notice] [pid 22680:tid 584] AH00418: Parent: Created child process 30276
+[Sun Jul 24 14:06:21.643260 2022] [ssl:warn] [pid 30276:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:06:21.709257 2022] [ssl:warn] [pid 30276:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:06:21.731257 2022] [mpm_winnt:notice] [pid 30276:tid 640] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 24 14:06:25.244081 2022] [cgi:error] [pid 30276:tid 1884] [client ::1:51625] AH02811: script not found or unable to stat: F:/xampp/cgi-bin/order1.cgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:06:46.821443 2022] [ssl:warn] [pid 33240:tid 200] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:06:46.870441 2022] [core:warn] [pid 33240:tid 200] AH00098: pid file F:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 24 14:06:46.872445 2022] [ssl:warn] [pid 33240:tid 200] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:06:46.896444 2022] [mpm_winnt:notice] [pid 33240:tid 200] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Sun Jul 24 14:06:46.896444 2022] [mpm_winnt:notice] [pid 33240:tid 200] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Sun Jul 24 14:06:46.896444 2022] [core:notice] [pid 33240:tid 200] AH00094: Command line: 'f:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Sun Jul 24 14:06:46.900442 2022] [mpm_winnt:notice] [pid 33240:tid 200] AH00418: Parent: Created child process 30812
+[Sun Jul 24 14:06:47.823092 2022] [ssl:warn] [pid 30812:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:06:47.875092 2022] [ssl:warn] [pid 30812:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:06:47.903094 2022] [mpm_winnt:notice] [pid 30812:tid 636] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 24 14:07:04.201137 2022] [mpm_winnt:crit] [pid 30812:tid 636] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jul 24 14:07:13.085319 2022] [ssl:warn] [pid 21196:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:07:13.116321 2022] [core:warn] [pid 21196:tid 536] AH00098: pid file F:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 24 14:07:13.119320 2022] [ssl:warn] [pid 21196:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:07:13.141696 2022] [mpm_winnt:notice] [pid 21196:tid 536] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Sun Jul 24 14:07:13.141696 2022] [mpm_winnt:notice] [pid 21196:tid 536] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Sun Jul 24 14:07:13.141696 2022] [core:notice] [pid 21196:tid 536] AH00094: Command line: 'f:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Sun Jul 24 14:07:13.145697 2022] [mpm_winnt:notice] [pid 21196:tid 536] AH00418: Parent: Created child process 33016
+[Sun Jul 24 14:07:14.092035 2022] [ssl:warn] [pid 33016:tid 612] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:07:14.145035 2022] [ssl:warn] [pid 33016:tid 612] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:07:14.169035 2022] [mpm_winnt:notice] [pid 33016:tid 612] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 24 14:08:07.923489 2022] [mpm_winnt:crit] [pid 33016:tid 612] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jul 24 14:08:09.731073 2022] [ssl:warn] [pid 29228:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:08:09.762075 2022] [core:warn] [pid 29228:tid 672] AH00098: pid file F:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 24 14:08:09.764072 2022] [ssl:warn] [pid 29228:tid 672] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:08:09.784072 2022] [mpm_winnt:notice] [pid 29228:tid 672] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Sun Jul 24 14:08:09.784072 2022] [mpm_winnt:notice] [pid 29228:tid 672] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Sun Jul 24 14:08:09.784072 2022] [core:notice] [pid 29228:tid 672] AH00094: Command line: 'f:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Sun Jul 24 14:08:09.788073 2022] [mpm_winnt:notice] [pid 29228:tid 672] AH00418: Parent: Created child process 35640
+[Sun Jul 24 14:08:10.819589 2022] [ssl:warn] [pid 35640:tid 680] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:08:10.874588 2022] [ssl:warn] [pid 35640:tid 680] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:08:10.897588 2022] [mpm_winnt:notice] [pid 35640:tid 680] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 24 14:08:12.793164 2022] [cgi:error] [pid 35640:tid 1880] [client ::1:51734] End of script output before headers: order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:08:12.793164 2022] [cgi:error] [pid 35640:tid 1880] [client ::1:51734] AH01215: Undefined subroutine &main::cookie called at F:/xampp/fcgi-bin/order1.fcgi line 8.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:09:05.785493 2022] [mpm_winnt:crit] [pid 35640:tid 680] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Jul 24 14:09:07.497890 2022] [ssl:warn] [pid 26892:tid 516] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:09:07.539889 2022] [core:warn] [pid 26892:tid 516] AH00098: pid file F:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 24 14:09:07.542891 2022] [ssl:warn] [pid 26892:tid 516] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:09:07.563889 2022] [mpm_winnt:notice] [pid 26892:tid 516] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Sun Jul 24 14:09:07.563889 2022] [mpm_winnt:notice] [pid 26892:tid 516] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Sun Jul 24 14:09:07.563889 2022] [core:notice] [pid 26892:tid 516] AH00094: Command line: 'f:\\xampp\\apache\\bin\\httpd.exe -d F:/xampp/apache'
+[Sun Jul 24 14:09:07.568890 2022] [mpm_winnt:notice] [pid 26892:tid 516] AH00418: Parent: Created child process 1992
+[Sun Jul 24 14:09:08.603413 2022] [ssl:warn] [pid 1992:tid 748] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:09:08.662415 2022] [ssl:warn] [pid 1992:tid 748] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 14:09:08.683412 2022] [mpm_winnt:notice] [pid 1992:tid 748] AH00354: Child: Starting 150 worker threads.
+[Sun Jul 24 14:09:08.925414 2022] [cgi:error] [pid 1992:tid 1892] [client ::1:51776] End of script output before headers: order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:09:08.925414 2022] [cgi:error] [pid 1992:tid 1892] [client ::1:51776] AH01215: [Sun Jul 24 14:09:08 2022] order1.fcgi: Unquoted string "headers" may clash with future reserved word at F:/xampp/fcgi-bin/order1.fcgi line 18.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:09:08.925414 2022] [cgi:error] [pid 1992:tid 1892] [client ::1:51776] AH01215: [Sun Jul 24 14:09:08 2022] order1.fcgi: Name "main::headers" used only once: possible typo at F:/xampp/fcgi-bin/order1.fcgi line 18.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:09:08.926413 2022] [cgi:error] [pid 1992:tid 1892] [client ::1:51776] AH01215: Undefined subroutine &main::cookie called at F:/xampp/fcgi-bin/order1.fcgi line 8.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:21:10.341491 2022] [cgi:error] [pid 1992:tid 1884] [client ::1:52642] End of script output before headers: order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:21:10.342491 2022] [cgi:error] [pid 1992:tid 1884] [client ::1:52642] AH01215: Undefined subroutine &main::cookie called at F:/xampp/fcgi-bin/order1.fcgi line 8.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:21:54.564813 2022] [cgi:error] [pid 1992:tid 1892] [client ::1:52643] End of script output before headers: order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:21:54.564813 2022] [cgi:error] [pid 1992:tid 1892] [client ::1:52643] AH01215: Undefined subroutine &main::cookie called at F:/xampp/fcgi-bin/order1.fcgi line 8.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:23:35.933975 2022] [cgi:error] [pid 1992:tid 1884] [client ::1:52811] End of script output before headers: order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:23:35.933975 2022] [cgi:error] [pid 1992:tid 1884] [client ::1:52811] AH01215: [Sun Jul 24 14:23:35 2022] order1.fcgi: Unquoted string "header" may clash with future reserved word at F:/xampp/fcgi-bin/order1.fcgi line 17.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:23:35.933975 2022] [cgi:error] [pid 1992:tid 1884] [client ::1:52811] AH01215: [Sun Jul 24 14:23:35 2022] order1.fcgi: Name "main::header" used only once: possible typo at F:/xampp/fcgi-bin/order1.fcgi line 17.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:23:35.933975 2022] [cgi:error] [pid 1992:tid 1884] [client ::1:52811] AH01215: Undefined subroutine &main::cookie called at F:/xampp/fcgi-bin/order1.fcgi line 8.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:38:35.693439 2022] [cgi:error] [pid 1992:tid 1892] [client ::1:60971] End of script output before headers: order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:38:35.693439 2022] [cgi:error] [pid 1992:tid 1892] [client ::1:60971] AH01215: Undefined subroutine &main::param called at F:/xampp/fcgi-bin/order1.fcgi line 8.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:38:36.579678 2022] [cgi:error] [pid 1992:tid 1884] [client ::1:60972] End of script output before headers: order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:38:36.579678 2022] [cgi:error] [pid 1992:tid 1884] [client ::1:60972] AH01215: Undefined subroutine &main::param called at F:/xampp/fcgi-bin/order1.fcgi line 8.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:39:11.448398 2022] [cgi:error] [pid 1992:tid 1892] [client ::1:60973] End of script output before headers: order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:39:11.448398 2022] [cgi:error] [pid 1992:tid 1892] [client ::1:60973] AH01215: Undefined subroutine &main::param called at F:/xampp/fcgi-bin/order1.fcgi line 8.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:39:57.630349 2022] [cgi:error] [pid 1992:tid 1884] [client ::1:60991] malformed header from script 'order1.fcgi': Bad header: <html lang="en">, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:39:57.634349 2022] [cgi:error] [pid 1992:tid 1884] [client ::1:60991] AH01215: [Sun Jul 24 14:39:57 2022] order1.fcgi: Use of uninitialized value $appleAmount in concatenation (.) or string at F:/xampp/fcgi-bin/order1.fcgi line 13.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:39:57.634349 2022] [cgi:error] [pid 1992:tid 1884] [client ::1:60991] AH01215: [Sun Jul 24 14:39:57 2022] order1.fcgi: Use of uninitialized value $bananaAmount in concatenation (.) or string at F:/xampp/fcgi-bin/order1.fcgi line 13.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:42:55.447090 2022] [cgi:error] [pid 1992:tid 1892] [client ::1:61174] AH01215: [Sun Jul 24 14:42:55 2022] order1.fcgi: Use of uninitialized value $appleAmount in concatenation (.) or string at F:/xampp/fcgi-bin/order1.fcgi line 14.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:42:55.447090 2022] [cgi:error] [pid 1992:tid 1892] [client ::1:61174] AH01215: [Sun Jul 24 14:42:55 2022] order1.fcgi: Use of uninitialized value $bananaAmount in concatenation (.) or string at F:/xampp/fcgi-bin/order1.fcgi line 14.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/fcgi-bin/order1.fcgi
+[Sun Jul 24 14:43:11.700710 2022] [cgi:error] [pid 1992:tid 1884] [client ::1:61175] AH01215: [Sun Jul 24 14:43:11 2022] order1.fcgi: Use of uninitialized value $appleAmount in concatenation (.) or string at F:/xampp/fcgi-bin/order1.fcgi line 14.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/index.html
+[Sun Jul 24 14:43:11.700710 2022] [cgi:error] [pid 1992:tid 1884] [client ::1:61175] AH01215: [Sun Jul 24 14:43:11 2022] order1.fcgi: Use of uninitialized value $bananaAmount in concatenation (.) or string at F:/xampp/fcgi-bin/order1.fcgi line 14.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/index.html
+[Sun Jul 24 14:47:35.781079 2022] [cgi:error] [pid 1992:tid 1884] [client ::1:50692] AH01215: [Sun Jul 24 14:47:35 2022] order1.fcgi: Use of uninitialized value $appleAmount in addition (+) at F:/xampp/fcgi-bin/order1.fcgi line 10.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/index.html
+[Sun Jul 24 14:47:35.781079 2022] [cgi:error] [pid 1992:tid 1884] [client ::1:50692] AH01215: [Sun Jul 24 14:47:35 2022] order1.fcgi: Use of uninitialized value $bananaAmount in addition (+) at F:/xampp/fcgi-bin/order1.fcgi line 10.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/index.html
+[Sun Jul 24 14:50:52.195412 2022] [cgi:error] [pid 1992:tid 1892] [client ::1:58825] End of script output before headers: order1.fcgi, referer: http://localhost/index.html
+[Sun Jul 24 14:50:52.195412 2022] [cgi:error] [pid 1992:tid 1892] [client ::1:58825] AH01215: [Sun Jul 24 14:50:52 2022] order1.fcgi: Unquoted string "header" may clash with future reserved word at F:/xampp/fcgi-bin/order1.fcgi line 12.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/index.html
+[Sun Jul 24 14:50:52.195412 2022] [cgi:error] [pid 1992:tid 1892] [client ::1:58825] AH01215: [Sun Jul 24 14:50:52 2022] order1.fcgi: Name "main::header" used only once: possible typo at F:/xampp/fcgi-bin/order1.fcgi line 12.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/index.html
+[Sun Jul 24 14:50:52.195412 2022] [cgi:error] [pid 1992:tid 1892] [client ::1:58825] AH01215: [Sun Jul 24 14:50:52 2022] order1.fcgi: Name "main::end_html" used only once: possible typo at F:/xampp/fcgi-bin/order1.fcgi line 16.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/index.html
+[Sun Jul 24 14:50:52.195412 2022] [cgi:error] [pid 1992:tid 1892] [client ::1:58825] AH01215: Undefined subroutine &main::param called at F:/xampp/fcgi-bin/order1.fcgi line 8.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/index.html
+[Sun Jul 24 14:51:53.507716 2022] [cgi:error] [pid 1992:tid 1884] [client ::1:58919] End of script output before headers: order1.fcgi, referer: http://localhost/index.html
+[Sun Jul 24 14:51:53.508717 2022] [cgi:error] [pid 1992:tid 1884] [client ::1:58919] AH01215: [Sun Jul 24 14:51:53 2022] order1.fcgi: Unquoted string "header" may clash with future reserved word at F:/xampp/fcgi-bin/order1.fcgi line 11.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/index.html
+[Sun Jul 24 14:51:53.508717 2022] [cgi:error] [pid 1992:tid 1884] [client ::1:58919] AH01215: [Sun Jul 24 14:51:53 2022] order1.fcgi: Name "main::header" used only once: possible typo at F:/xampp/fcgi-bin/order1.fcgi line 11.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/index.html
+[Sun Jul 24 14:51:53.508717 2022] [cgi:error] [pid 1992:tid 1884] [client ::1:58919] AH01215: [Sun Jul 24 14:51:53 2022] order1.fcgi: Name "main::end_html" used only once: possible typo at F:/xampp/fcgi-bin/order1.fcgi line 15.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/index.html
+[Sun Jul 24 14:51:53.508717 2022] [cgi:error] [pid 1992:tid 1884] [client ::1:58919] AH01215: Undefined subroutine &main::param called at F:/xampp/fcgi-bin/order1.fcgi line 7.: F:/xampp/fcgi-bin/order1.fcgi, referer: http://localhost/index.html
